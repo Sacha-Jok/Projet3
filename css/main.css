@@ -247,6 +247,13 @@ footer {
     footer li i {
       padding-right: 10px; }
 
+@media all and (min-width: 672px) {
+  footer {
+    text-align: center; }
+    footer ul {
+      display: flex;
+      justify-content: space-around; } }
+
 .loader-container {
   position: fixed;
   top: 0;
