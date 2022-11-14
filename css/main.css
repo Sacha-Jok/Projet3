@@ -80,7 +80,9 @@ input[type=checkbox] {
     cursor: pointer; }
   input[type=checkbox]:checked + label {
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    background-clip: text; }
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; }
   input[type=checkbox]:checked + label > i {
     color: transparent; }
 
