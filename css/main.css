@@ -57,7 +57,7 @@
 body {
   font-family: 'Roboto', sans-serif; }
 
-h1 {
+.menu-title-txt h1 {
   font-family: 'Shrikhand', sans-serif;
   text-align: center; }
 
@@ -112,12 +112,12 @@ input[type=checkbox] {
       color: lightgray;
       font-size: 20px; }
       .restaurant-bubble .restaurant-bubble-sub i:hover {
-        color: rgba(255, 121, 218, 0.4); }
+        color: #ff79da; }
 
 .menu-bubble {
   margin: 0 20px 20px 20px;
   text-align: left; }
-  .menu-bubble h3 {
+  .menu-bubble h2 {
     width: fit-content;
     border-bottom: 3px solid #99E2D0; }
   .menu-bubble-dish {
@@ -130,13 +130,13 @@ input[type=checkbox] {
     border-radius: 12px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex; }
-    .menu-bubble-dish h4 {
+    .menu-bubble-dish h3 {
       font-weight: 500;
       font-size: large;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis; }
-    .menu-bubble-dish h5 {
+    .menu-bubble-dish h4 {
       font-weight: 300;
       font-size: medium;
       overflow: hidden;
@@ -200,10 +200,10 @@ header {
   header .catchphrase {
     padding: 20px 50px;
     background-color: #f6f6f6; }
-  header h2 {
+  header h1 {
     margin-bottom: 15px;
     font-size: xx-large; }
-  header h3 {
+  header h2 {
     margin-bottom: 30px;
     font-weight: lighter; }
 
